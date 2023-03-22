@@ -1,0 +1,10 @@
+.time_slot {
+    /* border-bottom: 1px solid black;
+    border-left: 1px solid black; */
+
+    outline: 1px solid;
+}
+
+.day_slot {
+    outline: 1px solid;
+}

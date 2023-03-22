@@ -1,0 +1,58 @@
+.grid_container {
+    height: 600px;
+    width: 1000px;
+    border: 1px solid black;
+    margin: 50px;
+
+    display: grid;
+    grid-row-gap: 10px;
+
+    grid-template-columns: 
+        [days] 0.3fr
+        [time-0800-start] 0.2fr
+        [time-0830] 0.2fr
+        [time-0900] 0.2fr
+        [time-0930] 0.2fr
+        [time-1000] 0.2fr
+        [time-1030] 0.2fr
+        [time-1100] 0.2fr
+        [time-1130] 0.2fr
+        [time-1200] 0.2fr
+        [time-1300] 0.2fr
+    ;
+
+    /* grid-template-rows: 
+        [times] 0.2fr
+        [day-Mon-1] 0.3fr
+        [day-Mon-2] 0.3fr
+        [day-Mon-3] 0.3fr
+        [day-Tue-1] 0.3fr
+        [day-Tue-2] 0.3fr
+        [day-Tue-3] 0.3fr
+        [day-Wed-1] 0.3fr
+        [day-Wed-2] 0.3fr
+        [day-Wed-3] 0.3fr
+        [day-Thur-1] 0.3fr
+        [day-Thur-2] 0.3fr
+        [day-Thur-3] 0.3fr
+        [day-Fri-1] 0.3fr
+        [day-Fri-2] 0.3fr
+        [day-Fri-3] 0.3fr
+    ;
+   */
+}
+
+.time-slot {
+    grid-row: times;
+}
+
+.day-slot {
+    grid-column: days;
+}
+
+.time_header {
+    position: sticky;
+    top: 0;
+    display: block;
+    padding: 10px 5px 5px;
+}
